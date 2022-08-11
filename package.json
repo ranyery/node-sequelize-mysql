@@ -1,0 +1,27 @@
+{
+  "name": "node-sequelize-mysql",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./api/index.js",
+  "scripts": {
+    "start:dev": "nodemon ./api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranyery/node-sequelize-mysql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranyery/node-sequelize-mysql/issues"
+  },
+  "homepage": "https://github.com/ranyery/node-sequelize-mysql#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
